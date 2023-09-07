@@ -46,4 +46,6 @@ function squares(x, y, animation, pScope){
   fill(255)
   rect(-10,-300-animation.wave()*50,20,20) // .wave is a cosine wave btw
 
+  //changes
+
 }
