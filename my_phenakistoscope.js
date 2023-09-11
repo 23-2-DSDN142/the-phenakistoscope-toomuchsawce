@@ -3,7 +3,7 @@ const SLICE_COUNT = 10;
 function setup_pScope(pScope){
   pScope.output_mode(ANIMATED_DISK);
   pScope.scale_for_screen(true);
-  pScope.draw_layer_boundaries(true);
+  pScope.draw_layer_boundaries(false);
   pScope.set_direction(CCW);
   pScope.set_slice_count(SLICE_COUNT);
 }
@@ -48,4 +48,6 @@ function squares(x, y, animation, pScope){
 
   //changes
 
+  function(fill)
+  
 }
